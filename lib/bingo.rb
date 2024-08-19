@@ -20,7 +20,7 @@ class Bingo
 
     card = card_arr.map {|arr| arr.join('|').rjust(14)}.join("\n")
 
-    puts BINGO + card
+    p BINGO + card
 
   end
 end
